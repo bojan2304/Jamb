@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+section{
+    width: 25%;
+    margin: 0 20px;
+}
+ul{
+    padding-inline-start:0;
+    list-style: none;
+}
+ul li{
+    padding-top: 2px;
+}
+section div{
+    margin-top: 10px;
+    width: 100%;
+}
+div input[type="button"]{
+    width: 150px;
+}
+.odrediPobednika{
+    align-self: flex-end;
+    margin-right: 20%;
+    height: 25px;
+}
+.rezultati{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    align-self: flex-end;
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+span{
+    display: inline-block;
+    width: 50px;;
+    height: 30px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 30px;
+    margin: 2px 5px;
+}
+.ime p{
+    padding-top: 10px;
+}
+.dugmici div{
+    height: 37px;
+}
